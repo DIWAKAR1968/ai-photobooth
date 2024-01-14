@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import Webcam from "react-webcam";
 import frame from "../images/macbbok.png";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa6";
 
 
@@ -67,7 +67,9 @@ const Photo = () => {
       <div className="photo_buttons">
         <button className="button-1" onClick={capture}>Capture</button>
         <button className="button-2" onClick={retake}>Retake</button>
+        <Link to="/avatar">
         <button className="button-3">Next</button>
+        </Link>
       </div>
     </div>
   );

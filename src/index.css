@@ -6,7 +6,6 @@ body {
 }
 
 .container {
-  /* background-image: url("images/BG-01.png"); */
   overflow-x: hidden;
   background-size: cover;
   height: 100vh;
@@ -28,15 +27,14 @@ body {
 
 .images {
   display: flex;
-  /* background-color: aqua; */
 }
 
 .column:nth-child(even) img:first-child {
-  margin-top: 40%; /* Adjust this value to suit your needs */
+  margin-top: 40%;
 }
 
 .column:first-child {
-  padding-left: 10px; /* Adjust this value to suit your needs */
+  padding-left: 10px;
 }
 
 img:hover {
@@ -46,14 +44,14 @@ img:hover {
 }
 
 .header {
-  text-align: center; /* This will center the text horizontally */
+  text-align: center;
   margin-bottom: 5%;
   margin-top: 30%;
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Inter', sans-serif;
-font-family: 'Lemon', serif;
+
+  font-family: "Inter", sans-serif;
+  font-family: "Lemon", serif;
   font-size: 40px;
-  /* color: #3d5a80; */
+
   color: whitesmoke;
   font-weight: bold;
   background-color: #f72585;
@@ -65,27 +63,26 @@ font-family: 'Lemon', serif;
 .start_button {
   margin-top: 5%;
   margin-bottom: 5%;
-  padding: 10px 20px; /* Add padding to the button */
-  background-color: #3d5a80; /* Set the background color of the button */
-  color: white; /* Set the text color of the button */
-  border: none; /* Remove the default button border */
-  border-radius: 20px; /* Add rounded corners to the button */
-  font-size: 20px; /* Set the font size of the button */
-  cursor: pointer; /* Change the cursor when hovering over the button */
-  transition: background-color 0.3s; /* Add a transition effect when the button is hovered over */
+  padding: 10px 20px;
+  background-color: #3d5a80;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
   border: white 2px solid;
-  font-family: 'Inter', sans-serif;
-font-family: 'Lemon', serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Lemon", serif;
 }
 
 .start_button:hover {
-  background-color: #293241; /* Change the background color of the button when it's hovered over */
+  background-color: #293241;
 }
 
 /* PHOTO */
 
 .photo_container {
-  /* background-image: url("images/BG-01.png"); */
   overflow-x: hidden;
   background-size: cover;
   height: 100vh;
@@ -141,9 +138,9 @@ font-family: 'Lemon', serif;
   :hover {
     color: #fff;
     background-color: #616467;
-  };
-  font-family: 'Inter', sans-serif;
-font-family: 'Lemon', serif;
+  }
+  font-family: "Inter", sans-serif;
+  font-family: "Lemon", serif;
 }
 
 .button-2 {
@@ -167,13 +164,12 @@ font-family: 'Lemon', serif;
   box-shadow: inset 0 0 0 2px #616467;
   background-color: #f72585;
   height: 48px;
-  font-family: 'Inter', sans-serif;
-font-family: 'Lemon', serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Lemon", serif;
   :hover {
     color: #fff;
     background-color: #616467;
   }
-
 }
 
 .button-3 {
@@ -197,8 +193,8 @@ font-family: 'Lemon', serif;
   box-shadow: inset 0 0 0 2px #616467;
   background-color: transparent;
   height: 48px;
-  font-family: 'Inter', sans-serif;
-font-family: 'Lemon', serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Lemon", serif;
   :hover {
     color: #fff;
     background-color: #616467;
@@ -215,36 +211,34 @@ font-family: 'Lemon', serif;
 }
 
 .go-back-button {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 2%;
-    margin-left: 2%;
-
-    /* other styles as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 2%;
+  margin-left: 2%;
 }
 
 .go-back-button {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .go-back-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .go-back-button span {
-    margin-right: 5px;
-  }
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.go-back-button:hover {
+  background-color: #0056b3;
+}
+
+.go-back-button span {
+  margin-right: 5px;
+}
 
 .rounded-circle {
   display: inline-flex;
@@ -253,8 +247,8 @@ font-family: 'Lemon', serif;
   min-width: 30px;
   height: 30px;
   padding: 5px;
-  background-color: #f00; /* change to desired color */
-  color: #fff; /* change to desired color */
+  background-color: #f00;
+  color: #fff;
   border-radius: 50%;
   font-size: 20px;
 }
@@ -263,6 +257,71 @@ font-family: 'Lemon', serif;
   font-size: 30px;
   font-weight: bold;
   color: #3d5a80;
-  font-family: 'Inter', sans-serif;
-font-family: 'Lemon', serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Lemon", serif;
+}
+
+.header_text1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3d5a80;
+  font-family: "Inter", sans-serif;
+  font-family: "Lemon", serif;
+}
+
+.avatar_container {
+  overflow-x: hidden;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eaf4f4;
+}
+
+.carousel {
+  margin-top: 3%;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px; /* adjust as needed */
+  margin-top: 20px;
+}
+
+.carousel-button {
+  background: none;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.carousel img {
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel img.enlarged {
+  transform: scale(1.1); /* adjust as needed */
+}
+
+.avatar_text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3d5a80;
+  font-family: "Inter", sans-serif;
+  font-family: "Lemon", serif;
+}
+
+.carousel-button .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 40px; /* adjust as needed */
+  height: 40px; /* adjust as needed */
 }
