@@ -1,8 +1,13 @@
 import React, { useRef, useState } from "react";
 import Webcam from "react-webcam";
 import frame from "../images/macbbok.png";
+import { useNavigate } from "react-router-dom";
+import { FaArrowLeft } from "react-icons/fa6";
+
+
 
 const Photo = () => {
+  const navigate = useNavigate();
   const webcamRef = useRef(null);
   
   const [imageSrc, setImageSrc] = useState(null);
@@ -27,8 +32,15 @@ const Photo = () => {
     facingMode: "user",
   };
 
+
+
+  const handleGoBack = () => {
+    navigate(-1)
+  };
+
   return (
     <div className="photo_container">
+<button className="go-back-button" onClick={handleGoBack}><span><FaArrowLeft /></span>Go Back</button>
       <div className="header_text">
       Step <span className="rounded-circle">1</span>
       </div>
