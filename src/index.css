@@ -53,8 +53,13 @@ img:hover {
   font-family: 'Inter', sans-serif;
 font-family: 'Lemon', serif;
   font-size: 40px;
-  color: #3d5a80;
+  /* color: #3d5a80; */
+  color: whitesmoke;
   font-weight: bold;
+  background-color: #f72585;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 20px;
 }
 
 .start_button {
@@ -136,7 +141,9 @@ font-family: 'Lemon', serif;
   :hover {
     color: #fff;
     background-color: #616467;
-  }
+  };
+  font-family: 'Inter', sans-serif;
+font-family: 'Lemon', serif;
 }
 
 .button-2 {
@@ -160,10 +167,13 @@ font-family: 'Lemon', serif;
   box-shadow: inset 0 0 0 2px #616467;
   background-color: #f72585;
   height: 48px;
+  font-family: 'Inter', sans-serif;
+font-family: 'Lemon', serif;
   :hover {
     color: #fff;
     background-color: #616467;
   }
+
 }
 
 .button-3 {
@@ -187,6 +197,8 @@ font-family: 'Lemon', serif;
   box-shadow: inset 0 0 0 2px #616467;
   background-color: transparent;
   height: 48px;
+  font-family: 'Inter', sans-serif;
+font-family: 'Lemon', serif;
   :hover {
     color: #fff;
     background-color: #616467;
@@ -219,5 +231,6 @@ font-family: 'Lemon', serif;
   font-size: 30px;
   font-weight: bold;
   color: #3d5a80;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Inter', sans-serif;
+font-family: 'Lemon', serif;
 }
