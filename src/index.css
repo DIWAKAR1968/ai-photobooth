@@ -1,235 +1,223 @@
-body{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lemon&display=swap");
 
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    /* background-image: url("images/BG-01.png"); */
-    overflow-x: hidden;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #eaf4f4;
+.container {
+  /* background-image: url("images/BG-01.png"); */
+  overflow-x: hidden;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eaf4f4;
 }
 
 .glow-on-hover {
-    transition: all 0.3s ease;
-  }
-  
-  .glow-on-hover:hover {
-    box-shadow: 0 0 2px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
-  }
+  transition: all 0.3s ease;
+}
 
-.images{
-    display: flex;
-    /* background-color: aqua; */
+.glow-on-hover:hover {
+  box-shadow: 0 0 2px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00,
+    0 0 40px #00ff00;
+}
+
+.images {
+  display: flex;
+  /* background-color: aqua; */
 }
 
 .column:nth-child(even) img:first-child {
-    margin-top: 40%; /* Adjust this value to suit your needs */
+  margin-top: 40%; /* Adjust this value to suit your needs */
 }
 
 .column:first-child {
-    padding-left: 10px; /* Adjust this value to suit your needs */
-  }
+  padding-left: 10px; /* Adjust this value to suit your needs */
+}
 
 img:hover {
-    transform: scale(1.1); 
-    transition: transform 0.2s; 
-    cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.2s;
+  cursor: pointer;
 }
 
 .header {
-    text-align: center; /* This will center the text horizontally */
-    margin-bottom: 5%;
-    margin-top: 30%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    color: #3d5a80;
-    font-weight: bold;
+  text-align: center; /* This will center the text horizontally */
+  margin-bottom: 5%;
+  margin-top: 30%;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Inter', sans-serif;
+font-family: 'Lemon', serif;
+  font-size: 40px;
+  color: #3d5a80;
+  font-weight: bold;
 }
 
 .start_button {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 10px 20px; /* Add padding to the button */
-    background-color: #3d5a80; /* Set the background color of the button */
-    color: white; /* Set the text color of the button */
-    border: none; /* Remove the default button border */
-    border-radius: 20px; /* Add rounded corners to the button */
-    font-size: 20px; /* Set the font size of the button */
-    cursor: pointer; /* Change the cursor when hovering over the button */
-    transition: background-color 0.3s; /* Add a transition effect when the button is hovered over */
-    border: white 2px solid;
-  }
-  
-.start_button:hover {
-    background-color: #293241; /* Change the background color of the button when it's hovered over */
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: #3d5a80; /* Set the background color of the button */
+  color: white; /* Set the text color of the button */
+  border: none; /* Remove the default button border */
+  border-radius: 20px; /* Add rounded corners to the button */
+  font-size: 20px; /* Set the font size of the button */
+  cursor: pointer; /* Change the cursor when hovering over the button */
+  transition: background-color 0.3s; /* Add a transition effect when the button is hovered over */
+  border: white 2px solid;
+  font-family: 'Inter', sans-serif;
+font-family: 'Lemon', serif;
 }
 
-
-
-
+.start_button:hover {
+  background-color: #293241; /* Change the background color of the button when it's hovered over */
+}
 
 /* PHOTO */
 
-.photo_container{
-    /* background-image: url("images/BG-01.png"); */
-    overflow-x: hidden;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #eaf4f4;
+.photo_container {
+  /* background-image: url("images/BG-01.png"); */
+  overflow-x: hidden;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eaf4f4;
 }
 
-.header_text{
-    margin-top: 5%;
+.header_text {
+  margin-top: 5%;
 }
 
-.frame_container{
-    position: relative;
-    margin-top: 2%;
+.frame_container {
+  position: relative;
+  margin-top: 2%;
 }
 
-.frame{
-    position: relative;
-    z-index: 1;
+.frame {
+  position: relative;
+  z-index: 1;
 }
 
-
-
-.camera_image{
-    margin-top: -60%;
-    margin-left: 12%;
-    position: absolute;
-    z-index: 0;
+.camera_image {
+  margin-top: -60%;
+  margin-left: 12%;
+  position: absolute;
+  z-index: 0;
 }
 
-
-.button-1{
-    
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-size: 14px;
-    line-height: 1;
-    border-radius: 500px;
-    transition-property: background-color,border-color,color,box-shadow,filter;
-    transition-duration: .3s;
-    border: 1px solid transparent;
-    letter-spacing: 2px;
-    min-width: 160px;
-    text-transform: uppercase;
-    white-space: normal;
-    font-weight: 700;
-    text-align: center;
-    padding: 16px 14px 18px;
-    color: whitesmoke;
-    box-shadow: inset 0 0 0 2px #616467;
-    background-color: #38b000;
-    height: 48px;
-    :hover{
-        color: #fff;
-        background-color: #616467;
-    }
-
+.button-1 {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: whitesmoke;
+  box-shadow: inset 0 0 0 2px #616467;
+  background-color: #38b000;
+  height: 48px;
+  :hover {
+    color: #fff;
+    background-color: #616467;
+  }
 }
 
-.button-2{
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-size: 14px;
-    line-height: 1;
-    border-radius: 500px;
-    transition-property: background-color,border-color,color,box-shadow,filter;
-    transition-duration: .3s;
-    border: 1px solid transparent;
-    letter-spacing: 2px;
-    min-width: 160px;
-    text-transform: uppercase;
-    white-space: normal;
-    font-weight: 700;
-    text-align: center;
-    padding: 16px 14px 18px;
-    color: whitesmoke;
-    box-shadow: inset 0 0 0 2px #616467;
-    background-color: #f72585;
-    height: 48px;
-    :hover{
-        color: #fff;
-        background-color: #616467;
-    }
+.button-2 {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: whitesmoke;
+  box-shadow: inset 0 0 0 2px #616467;
+  background-color: #f72585;
+  height: 48px;
+  :hover {
+    color: #fff;
+    background-color: #616467;
+  }
 }
 
-.button-3{
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-size: 14px;
-    line-height: 1;
-    border-radius: 500px;
-    transition-property: background-color,border-color,color,box-shadow,filter;
-    transition-duration: .3s;
-    border: 1px solid transparent;
-    letter-spacing: 2px;
-    min-width: 160px;
-    text-transform: uppercase;
-    white-space: normal;
-    font-weight: 700;
-    text-align: center;
-    padding: 16px 14px 18px;
-    color: #616467;
-    box-shadow: inset 0 0 0 2px #616467;
-    background-color: transparent;
-    height: 48px;
-    :hover{
-        color: #fff;
-        background-color: #616467;
-    }
+.button-3 {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #616467;
+  box-shadow: inset 0 0 0 2px #616467;
+  background-color: transparent;
+  height: 48px;
+  :hover {
+    color: #fff;
+    background-color: #616467;
+  }
 }
 
-.photo_buttons{
-    /* margin-top: 5%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 10%;
+.photo_buttons {
+  /* margin-top: 5%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10%;
 }
 
 .rounded-circle {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 30px;
-    height: 30px;
-    padding: 5px;
-    background-color: #f00; /* change to desired color */
-    color: #fff; /* change to desired color */
-    border-radius: 50%;
-    font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 30px;
+  height: 30px;
+  padding: 5px;
+  background-color: #f00; /* change to desired color */
+  color: #fff; /* change to desired color */
+  border-radius: 50%;
+  font-size: 20px;
 }
 
-.header_text{
-    font-size: 30px;
-    font-weight: bold;
-    color: #3d5a80;
-    font-family: 'Times New Roman', Times, serif;
+.header_text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3d5a80;
+  font-family: "Times New Roman", Times, serif;
 }
-
-
-
-
-
-
-
-
-  
