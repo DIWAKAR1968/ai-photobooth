@@ -379,10 +379,21 @@ img:hover {
     height: auto;
     margin-right: 1rem; /* Adjust the gap between images as needed */
     transition: transform 0.3s ease-in-out; /* Smooth image transition */
+    /* margin-right: 0; */
   }
 
   .carousel img.enlarged {
     transform: scale(1.1);
+  }
+
+  .carousel img:first-child, .carousel img:last-child {
+    transform: scale(0.8); /* adjust as needed */
+    
+  }
+
+  .carousel img.enlarged:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
   }
 }
 
