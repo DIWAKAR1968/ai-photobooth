@@ -364,7 +364,7 @@ img:hover {
     overflow-x: auto;
     padding-top: 5%;
     padding-bottom: 5%;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     justify-content: space-between; /* Distribute space evenly between images */
   }
