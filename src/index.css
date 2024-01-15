@@ -140,10 +140,15 @@ img:hover {
   background-color: black;
   height: 48px;
   font-family: "Poppins", sans-serif;
+  
   :hover {
     color: #fff;
     background-color: #616467;
   }
+}
+
+.button-1:hover, .button-2:hover, .button-3:hover {
+  transform: scale(1.1); /* adjust as needed */
 }
 
 .button-2 {
