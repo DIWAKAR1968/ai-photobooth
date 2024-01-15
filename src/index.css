@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lemon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 body {
   margin: 0;
@@ -14,6 +14,7 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #eaf4f4;
+  background-image: url("images/BG-01.png");
 }
 
 .glow-on-hover {
@@ -21,6 +22,9 @@ body {
 }
 
 .glow-on-hover:hover {
+  /* box-shadow: 0 0 2px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00,
+    0 0 40px #00ff00; */
+
   box-shadow: 0 0 2px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00,
     0 0 40px #00ff00;
 }
@@ -46,38 +50,36 @@ img:hover {
 .header {
   text-align: center;
   margin-bottom: 5%;
-  margin-top: 30%;
+  margin-top: 40%;
 
-  font-family: "Inter", sans-serif;
-  font-family: "Lemon", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
 
-  color: whitesmoke;
+  color: black;
   font-weight: bold;
-  background-color: #f72585;
+  /* background-color: #f72585; */
   padding-left: 1%;
   padding-right: 1%;
   border-radius: 20px;
 }
 
 .start_button {
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 5%;
-  padding: 10px 20px;
-  background-color: #3d5a80;
-  color: white;
+  padding: 10px 50px;
+  background-color: black;
+  color: yellow;
   border: none;
-  border-radius: 20px;
-  font-size: 20px;
+  border-radius: 40px;
+  font-size: 40px;
   cursor: pointer;
   transition: background-color 0.3s;
   border: white 2px solid;
-  font-family: "Inter", sans-serif;
-  font-family: "Lemon", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .start_button:hover {
-  background-color: #293241;
+  transform: scale(1.1); /* adjust as needed */
 }
 
 /* PHOTO */
@@ -90,11 +92,12 @@ img:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #eaf4f4;
+  /* background-color: #eaf4f4; */
+  background-image: url("images/BG-01.png");
 }
 
 .header_text {
-  margin-top: 5%;
+  margin-top: 20%;
 }
 
 .frame_container {
@@ -131,16 +134,15 @@ img:hover {
   font-weight: 700;
   text-align: center;
   padding: 16px 14px 18px;
-  color: whitesmoke;
+  color: yellow;
   box-shadow: inset 0 0 0 2px #616467;
-  background-color: #38b000;
+  background-color: black;
   height: 48px;
+  font-family: "Poppins", sans-serif;
   :hover {
     color: #fff;
     background-color: #616467;
   }
-  font-family: "Inter", sans-serif;
-  font-family: "Lemon", serif;
 }
 
 .button-2 {
@@ -160,12 +162,11 @@ img:hover {
   font-weight: 700;
   text-align: center;
   padding: 16px 14px 18px;
-  color: whitesmoke;
+  color: yellow;
   box-shadow: inset 0 0 0 2px #616467;
-  background-color: #f72585;
+  background-color: black;
   height: 48px;
-  font-family: "Inter", sans-serif;
-  font-family: "Lemon", serif;
+  font-family: "Poppins", sans-serif;
   :hover {
     color: #fff;
     background-color: #616467;
@@ -189,12 +190,11 @@ img:hover {
   font-weight: 700;
   text-align: center;
   padding: 16px 14px 18px;
-  color: #616467;
+  color: yellow;
   box-shadow: inset 0 0 0 2px #616467;
-  background-color: transparent;
+  background-color: black;
   height: 48px;
-  font-family: "Inter", sans-serif;
-  font-family: "Lemon", serif;
+  font-family: "Poppins", sans-serif;
   :hover {
     color: #fff;
     background-color: #616467;
@@ -202,7 +202,8 @@ img:hover {
 }
 
 .photo_buttons {
-  /* margin-top: 5%; */
+  margin-top: 2%;
+  margin-bottom: 3%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,11 +226,12 @@ img:hover {
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
-  background-color: #007bff;
+  background-color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  color: yellow;
 }
 
 .go-back-button:hover {
@@ -256,64 +258,54 @@ img:hover {
 .header_text {
   font-size: 30px;
   font-weight: bold;
-  color: #3d5a80;
-  font-family: "Inter", sans-serif;
-  font-family: "Lemon", serif;
+  color: black;
+  font-family: "Poppins", sans-serif;
 }
 
-.header_text1 {
-  font-size: 30px;
-  font-weight: bold;
-  color: #3d5a80;
-  font-family: "Inter", sans-serif;
-  font-family: "Lemon", serif;
-}
+
 
 .avatar_container {
   overflow-x: hidden;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #eaf4f4;
+  /* background-color: #eaf4f4; */
+  background-image: url("images/BG-01.png");
 }
 
 .carousel {
-  margin-top: 3%;
+  /* background-color: #007bff; */
+  margin-top: 3%; /* adjust as needed */
+}
+
+
+
+.header_text1 {
+  margin-top: 7%;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.avatar_text {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  font-family: "Poppins", sans-serif;
 }
 
 .carousel-controls {
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 1000px; /* adjust as needed */
-  margin-top: 20px;
-}
 
-.carousel-button {
-  background: none;
-  border: none;
-  font-size: 2em;
-  cursor: pointer;
-}
-
-.carousel img {
-  object-fit: cover;
-  transition: all 0.3s ease-in-out;
-}
-
-.carousel img.enlarged {
-  transform: scale(1.1); /* adjust as needed */
-}
-
-.avatar_text {
-  font-size: 30px;
-  font-weight: bold;
-  color: #3d5a80;
-  font-family: "Inter", sans-serif;
-  font-family: "Lemon", serif;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  overflow: hidden;
 }
 
 .carousel-button .circle {
@@ -322,6 +314,71 @@ img:hover {
   align-items: center;
   border: 1px solid #000;
   border-radius: 50%;
-  width: 40px; /* adjust as needed */
-  height: 40px; /* adjust as needed */
+  width: 40px;
+  height: 40px;
 }
+
+.carousel-button {
+  background: none;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  padding-top: 2%;
+}
+
+.carousel img {
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel img.enlarged {
+  transform: scale(1.1);
+}
+
+.carousel img.enlarged:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel img:hover {
+  box-shadow: 0 0 0 10px black;
+  border-radius: 22px;
+}
+
+.carousel img {
+  size: 70%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between; /* Distribute space evenly between images */
+  }
+
+  .avatar_container{
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .carousel img {
+    max-width: calc(20% - 1rem); /* 20% width for each image with a little gap */
+    height: auto;
+    margin-right: 1rem; /* Adjust the gap between images as needed */
+    transition: transform 0.3s ease-in-out; /* Smooth image transition */
+  }
+
+  .carousel img.enlarged {
+    transform: scale(1.1);
+  }
+}
+

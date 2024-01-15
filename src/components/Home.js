@@ -22,6 +22,7 @@ const pairs = Photo.reduce((result, value, index, array) => {
 const Home = () => {
   return (
     <div className="container">
+      
       <div className="header">
         Click the Start button below To build the Avatar
       </div>
