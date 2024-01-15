@@ -25,8 +25,9 @@ body {
   /* box-shadow: 0 0 2px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00,
     0 0 40px #00ff00; */
 
-  box-shadow: 0 0 2px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00,
-    0 0 40px #00ff00;
+  box-shadow: 0 0 1px red, 0 0 10px red, 0 0 20px red,
+    0 0 30px red;
+    border-radius: 20px;
 }
 
 .images {
