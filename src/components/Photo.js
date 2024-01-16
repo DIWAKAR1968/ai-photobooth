@@ -27,8 +27,8 @@ const Photo = () => {
   const width = window.innerWidth;
 
   const videoConstraints = {
-    width: width <= 667 ? 160 : width < 950 ? 410 : 770,
-    height: width <= 667 ? 185 : width < 950 ? 290 : 550,
+    width: width <= 667 ? 160 : width < 950 ? 350 : 770,
+    height: width <= 667 ? 185 : width < 950 ? 270 : 550,
     facingMode: "user",
   };
 
