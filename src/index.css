@@ -528,66 +528,153 @@ img:hover {
     border-radius: 10px;
   }
 
+
+
   .photo_container {
+    overflow-x: hidden;
+    background-size: cover;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    
     background-image: url("images/BG-01.png");
   }
   
   .header_text {
-    margin-top: 20px;
+    margin-top: 20%;
   }
   
   .frame_container {
     position: relative;
-    width: 50%;
-  
-    margin: 20px 0;
-    /* background-image: url("images/BG-01.png"); */
+    margin-top: 2%;
+    /* background-color: aqua; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
   }
   
   .frame {
-    width: 100%;
-    height: auto;
-    max-height: 400px; /* Adjust the max-height as needed */
-    pointer-events: none;
     position: relative;
     z-index: 1;
+    width: 80%;
+    
   }
   
   .camera_image {
+    margin-top: 1%;
+    margin-left: 0%;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     z-index: 0;
   }
   
-  .webcam {
-    width: 100%;
-    height: 100%;
+  .button-1 {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: yellow;
+    box-shadow: inset 0 0 0 2px #616467;
+    background-color: black;
+    height: 48px;
+    font-family: "Poppins", sans-serif;
+  
+    :hover {
+      color: #fff;
+      background-color: #616467;
+    }
+  }
+  
+  .button-1:hover,
+  .button-2:hover,
+  .button-3:hover {
+    transform: scale(1.1);
+  }
+  
+  .button-2 {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: yellow;
+    box-shadow: inset 0 0 0 2px #616467;
+    background-color: black;
+    height: 48px;
+    font-family: "Poppins", sans-serif;
+    :hover {
+      color: #fff;
+      background-color: #616467;
+    }
+  }
+  
+  .button-3 {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: yellow;
+    box-shadow: inset 0 0 0 2px #616467;
+    background-color: black;
+    height: 48px;
+    font-family: "Poppins", sans-serif;
+    :hover {
+      color: #fff;
+      background-color: #616467;
+    }
   }
   
   .photo_buttons {
+    margin-top: 2%;
+    margin-bottom: 3%;
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10%;
   }
+
+
+
   
-  .button-1,
-  .button-2,
-  .button-3 {
-    padding: 10px 20px;
-    font-size: 16px;
-  }
+
+  
   
   
 
