@@ -394,7 +394,8 @@ img:hover {
   }
 
   .carousel img {
-    max-width: calc(50% - 1rem); /* adjust as needed */
+    max-width: calc(70% - 1rem); /* adjust as needed */
+    max-height: calc(100% - 1rem); /* adjust as needed */
   }
 
   .carousel-button {
