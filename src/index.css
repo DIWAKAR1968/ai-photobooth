@@ -391,6 +391,17 @@ img:hover {
 @media screen and (max-width: 900px) {
   .avatar_container {
     height: 100vh; /* adjust as needed */
+
+  }
+
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
   }
 
   .carousel img {
