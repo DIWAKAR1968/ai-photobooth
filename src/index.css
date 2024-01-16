@@ -446,7 +446,7 @@ img:hover {
   }
 
   .carousel img {
-    width: 80%; /* adjust as needed */
+    width: 100%; /* adjust as needed */
     height: 100%;
     margin-right: 10px;
   }
