@@ -405,11 +405,20 @@ img:hover {
   }
 
   .carousel img {
-    max-width: calc(70% - 1rem); /* adjust as needed */
+    max-width: calc(90% - 1rem); /* adjust as needed */
     max-height: calc(100% - 1rem); /* adjust as needed */
   }
 
   .carousel-button {
     font-size: 1.5em; /* adjust as needed */
+  }
+
+  .carousel img.enlarged:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .carousel img.enlarged {
+    transform: scale(1.2);
   }
 }
