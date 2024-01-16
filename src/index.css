@@ -584,7 +584,7 @@ img:hover {
     font-weight: 700;
     text-align: center;
     padding: 10px 10px 10px;
-    color: yellow;
+    color: #FFC614;
     box-shadow: inset 0 0 0 2px #616467;
     background-color: black;
     height: 48px;
@@ -620,7 +620,7 @@ img:hover {
     font-weight: 700;
     text-align: center;
     padding: 10px 10px 10px;
-    color: yellow;
+    color: #FFC614;
     box-shadow: inset 0 0 0 2px #616467;
     background-color: black;
     height: 48px;
@@ -649,7 +649,7 @@ img:hover {
     font-weight: 700;
     text-align: center;
     padding: 10px 10px 10px;
-    color: yellow;
+    color: #FFC614;
     box-shadow: inset 0 0 0 2px #616467;
     background-color: black;
     height: 48px;
@@ -688,7 +688,7 @@ img:hover {
   }
 
   .glow-on-hover:hover {
-    box-shadow: 0 0 1px red, 0 0 10px red, 0 0 20px red, 0 0 30px red;
+    box-shadow: 0 0 1px #FFC614, 0 0 10px #FFC614, 0 0 20px #FFC614, 0 0 30px #FFC614;
     border-radius: 10px;
   }
 
@@ -724,7 +724,7 @@ img:hover {
     font-size: 20px;
 
     color: black;
-    font-weight: bold;
+    font-weight:900;
 
     padding-left: 1%;
     padding-right: 1%;
@@ -736,7 +736,7 @@ img:hover {
     margin-bottom: 5%;
     padding: 10px 50px;
     background-color: black;
-    color: yellow;
+    color: #FFC614;
     border: none;
     border-radius: 40px;
     font-size: 20px;
