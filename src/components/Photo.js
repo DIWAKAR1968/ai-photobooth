@@ -27,8 +27,8 @@ const Photo = () => {
   const width = window.innerWidth;
 
   const videoConstraints = {
-    width: width <= 667 ? 160 : width < 950 ? 400 : 770,
-    height: width <= 667 ? 185 : width < 950 ? 260 : 550,
+    width: width <= 667 ? 160 : width < 950 ? 100 : 770,
+    height: width <= 667 ? 185 : width < 950 ? 50 : 550,
     facingMode: "user",
   };
 
@@ -58,6 +58,7 @@ const Photo = () => {
                 screenshotFormat="image/jpeg"
                 className="webcam"
                 videoConstraints={videoConstraints}
+                style={{ width: "100%", height: "100%" }}
               />
             </div>
           )}

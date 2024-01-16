@@ -528,49 +528,66 @@ img:hover {
     border-radius: 10px;
   }
 
-  /* photo page */
-
   .photo_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("images/BG-01.png");
+  }
+  
+  .header_text {
+    margin-top: 20px;
+  }
+  
+  .frame_container {
+    position: relative;
+    width: 90%;
+  
+    margin: 20px 0;
+    /* background-image: url("images/BG-01.png"); */
+  }
+  
+  .frame {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust the max-height as needed */
+    pointer-events: none;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .camera_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    background-image: url("images/BG-01.png");
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    position: relative;
-
+    z-index: 0;
   }
-
-  .frame_container {
-    /* position: relative; */
-    margin-top: 30%;
-    max-width: 100%;
-  }
-
   
-    .frame {
-      width: 100%; 
-      height: 60%; 
-      
-      position: relative;
-      z-index: 1;
-    }
-
-    .camera_image {
-      margin-top: -35%;
-      margin-left: 7%;
-      position: absolute;
-      z-index: 0;
-    }
-
-    .header_text{
-      font-size: 20px;
-      font-family: "Poppins", sans-serif;
-      font-weight: bold;
-      /* margin-top: 3%; */
-    }
+  .webcam {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .photo_buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .button-1,
+  .button-2,
+  .button-3 {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
   
   
 
