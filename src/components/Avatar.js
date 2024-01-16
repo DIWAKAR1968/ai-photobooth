@@ -38,7 +38,7 @@ const Avatar = () => {
       </div>
 
       <div className="avatar_text">Please Select Your Avatar</div>
-      {/* <div className="carousel">
+      <div className="carousel">
         {Photo.slice(startIndex, startIndex + 5).map((photo, index) => (
           <img
             key={index}
@@ -47,7 +47,7 @@ const Avatar = () => {
             className={index === 2 ? "enlarged" : ""}
           />
         ))}
-      </div> */}
+      </div>
       <div className="carousel-controls">
         <button
           className="carousel-button carousel-button-left"

@@ -430,6 +430,28 @@ img:hover {
     background-size: cover;
   }
 
+  .carousel {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: aqua;
+    max-height: 40vh;
+    padding: 2%;
+    
+    
+    
+  }
+
+  .carousel img {
+    width: 100%; /* adjust as needed */
+    height: 100%;
+    margin-right: 10px;
+  }
+
+  
+
 
   
 }
