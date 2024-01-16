@@ -688,7 +688,7 @@ img:hover {
   }
 
   .glow-on-hover:hover {
-    box-shadow: 0 0 1px #FFC614, 0 0 10px #FFC614, 0 0 20px #FFC614, 0 0 30px #FFC614;
+    box-shadow: 0 0 1px #d90429, 0 0 10px #d90429, 0 0 20px #d90429, 0 0 30px #d90429;
     border-radius: 10px;
   }
 
