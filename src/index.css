@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
@@ -22,12 +22,10 @@ body {
 }
 
 .glow-on-hover:hover {
-  /* box-shadow: 0 0 2px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00,
-    0 0 40px #00ff00; */
+ 
 
-  box-shadow: 0 0 1px red, 0 0 10px red, 0 0 20px red,
-    0 0 30px red;
-    border-radius: 20px;
+  box-shadow: 0 0 1px red, 0 0 10px red, 0 0 20px red, 0 0 30px red;
+  border-radius: 20px;
 }
 
 .images {
@@ -58,7 +56,7 @@ img:hover {
 
   color: black;
   font-weight: bold;
-  /* background-color: #f72585; */
+  
   padding-left: 1%;
   padding-right: 1%;
   border-radius: 20px;
@@ -80,7 +78,7 @@ img:hover {
 }
 
 .start_button:hover {
-  transform: scale(1.1); /* adjust as needed */
+  transform: scale(1.1); 
 }
 
 /* PHOTO */
@@ -93,7 +91,7 @@ img:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background-color: #eaf4f4; */
+  
   background-image: url("images/BG-01.png");
 }
 
@@ -140,15 +138,17 @@ img:hover {
   background-color: black;
   height: 48px;
   font-family: "Poppins", sans-serif;
-  
+
   :hover {
     color: #fff;
     background-color: #616467;
   }
 }
 
-.button-1:hover, .button-2:hover, .button-3:hover {
-  transform: scale(1.1); /* adjust as needed */
+.button-1:hover,
+.button-2:hover,
+.button-3:hover {
+  transform: scale(1.1);
 }
 
 .button-2 {
@@ -240,8 +240,6 @@ img:hover {
   color: yellow;
 }
 
-
-
 .go-back-button span {
   margin-right: 5px;
 }
@@ -266,8 +264,6 @@ img:hover {
   font-family: "Poppins", sans-serif;
 }
 
-
-
 .avatar_container {
   overflow-x: hidden;
   background-size: cover;
@@ -276,16 +272,14 @@ img:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background-color: #eaf4f4; */
+
   background-image: url("images/BG-01.png");
 }
 
 .carousel {
-  /* background-color: #007bff; */
-  margin-top: 3%; /* adjust as needed */
+  
+  margin-top: 3%; 
 }
-
-
 
 .header_text1 {
   margin-top: 7%;
@@ -353,11 +347,6 @@ img:hover {
   size: 70%;
 }
 
-
-
-
-
-
 @media screen and (max-width: 1500px) {
   .carousel {
     display: flex;
@@ -366,31 +355,49 @@ img:hover {
     padding-bottom: 5%;
     max-width: 90%;
     margin: 0 auto;
-    justify-content: space-between; /* Distribute space evenly between images */
+    justify-content: space-between;
   }
 
-  .avatar_container{
+  .avatar_container {
     background-size: cover;
     height: 100vh;
   }
 
   .carousel img {
-    max-width: calc(20% - 1rem); /* 20% width for each image with a little gap */
+    max-width: calc(20% - 1rem);
     height: auto;
-    margin-right: 1rem; /* Adjust the gap between images as needed */
-    transition: transform 0.3s ease-in-out; /* Smooth image transition */
-    /* margin-right: 0; */
+    margin-right: 1rem;
+    transition: transform 0.3s ease-in-out;
   }
 
   .carousel img.enlarged {
     transform: scale(1.1);
   }
 
-  
-
   .carousel img.enlarged:hover {
     transform: scale(1.2);
     transition: transform 0.3s ease-in-out;
   }
+
+  .carousel-button {
+    background: none;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    padding-top: 1%;
+  }
 }
 
+@media screen and (max-width: 900px) {
+  .avatar_container {
+    height: 100vh; /* adjust as needed */
+  }
+
+  .carousel img {
+    max-width: calc(50% - 1rem); /* adjust as needed */
+  }
+
+  .carousel-button {
+    font-size: 1.5em; /* adjust as needed */
+  }
+}
