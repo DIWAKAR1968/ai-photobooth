@@ -389,7 +389,7 @@ img:hover {
   }
 } */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .go-back-button {
     position: absolute;
     top: 0;
@@ -434,7 +434,7 @@ img:hover {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
-    background-color: aqua;
+    /* background-color: aqua; */
     max-height: 40vh;
     padding: 3%;
     /* padding-bottom: 5%; */
@@ -463,7 +463,7 @@ img:hover {
     display: flex;
     justify-content: center;
     width: 100%;
-  
+    margin-top: -2%;
     
     overflow: hidden;
   }
@@ -485,5 +485,31 @@ img:hover {
     cursor: pointer;
     padding-top: 2%;
     color: black;
+  }
+
+  .header_text1{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-top: 3%;
+  }
+
+  .avatar_text{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+
+  .rounded-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 15px;
+    height: 15px;
+    padding: 2.5px;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 15px;
   }
 }
