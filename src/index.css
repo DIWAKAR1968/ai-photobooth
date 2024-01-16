@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -389,17 +390,14 @@ img:hover {
 } */
 
 @media screen and (max-width: 900px) {
-  
-
   .go-back-button {
     position: absolute;
     top: 0;
     left: 0;
     margin-top: 2%;
     margin-left: 2%;
-    
   }
-  
+
   .go-back-button {
     position: absolute;
     top: 10px;
@@ -414,12 +412,12 @@ img:hover {
     transition: background-color 0.3s ease;
     color: yellow;
   }
-  
+
   .go-back-button span {
     margin-right: 5px;
   }
 
-  .avatar_container{
+  .avatar_container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -438,25 +436,53 @@ img:hover {
     white-space: nowrap;
     background-color: aqua;
     max-height: 40vh;
-    padding: 2%;
+    padding: 3%;
+    /* padding-bottom: 5%; */
     max-width: 90%;
-    
-    
-    
   }
 
   .carousel img {
-    
-      width: auto; /* adjust as needed */
-      height: 100%;
-      object-fit: contain;
-      margin-right: 10px;
-    
+    width: auto; /* adjust as needed */
+    height: 100%;
+    object-fit: contain;
+    margin-right: 10px;
+
     margin-right: 10px;
   }
 
-  
+  .carousel img.enlarged {
+    transform: scale(1.1);
+  }
 
+  .carousel img.enlarged:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+  }
 
+  .carousel-controls {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   
+    
+    overflow: hidden;
+  }
+  
+  .carousel-button .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .carousel-button {
+    background: none;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    padding-top: 2%;
+  }
 }
