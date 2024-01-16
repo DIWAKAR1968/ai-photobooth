@@ -5,7 +5,7 @@ html, body {
   padding: 0;
 }
 
-.container {
+/* .container {
   overflow-x: hidden;
   background-size: cover;
   height: 100vh;
@@ -81,7 +81,7 @@ img:hover {
   transform: scale(1.1); 
 }
 
-/* PHOTO */
+
 
 .photo_container {
   overflow-x: hidden;
@@ -386,39 +386,46 @@ img:hover {
     cursor: pointer;
     padding-top: 1%;
   }
-}
+} */
 
 @media screen and (max-width: 900px) {
-  .avatar_container {
-    height: 100vh; /* adjust as needed */
+  
 
+  .go-back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 10%;
+  }
+  
+  .go-back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    font-size: 8px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: yellow;
+  }
+  
+  .go-back-button span {
+    margin-right: 5px;
   }
 
-  .carousel {
+  .avatar_container{
     display: flex;
-    overflow-x: auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    max-width: 60%;
-    margin: 0 auto;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
-  .carousel img {
-    max-width: calc(90% - 1rem); /* adjust as needed */
-    max-height: calc(100% - 1rem); /* adjust as needed */
-  }
 
-  .carousel-button {
-    font-size: 1.5em; /* adjust as needed */
-  }
-
-  .carousel img.enlarged:hover {
-    transform: scale(1.2);
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .carousel img.enlarged {
-    transform: scale(1.2);
-  }
+  
 }
