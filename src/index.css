@@ -543,7 +543,9 @@ img:hover {
   }
   
   .header_text {
-    margin-top: 20%;
+    margin-top: 25%;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
   }
   
   .frame_container {
@@ -672,6 +674,88 @@ img:hover {
   }
 
 
+  .container {
+    overflow-x: hidden;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eaf4f4;
+    background-image: url("images/BG-01.png");
+    max-width: 100%;
+  }
+  
+  .glow-on-hover {
+    transition: all 0.3s ease;
+  }
+  
+  .glow-on-hover:hover {
+   
+  
+    box-shadow: 0 0 1px red, 0 0 10px red, 0 0 20px red, 0 0 30px red;
+    border-radius: 20px;
+  }
+  
+  .images {
+    display: flex;
+    
+  }
+
+  .column img {
+    width: 90%; /* adjust as needed */
+    height: auto;
+  }
+  
+  .column:nth-child(even) img:first-child {
+    margin-top: 40%;
+  }
+  
+  .column:first-child {
+    padding-left: 10px;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 40%;
+  
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+  
+    color: black;
+    font-weight: bold;
+    
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 20px;
+  }
+  
+  .start_button {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 10px 50px;
+    background-color: black;
+    color: yellow;
+    border: none;
+    border-radius: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: white 2px solid;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .start_button:hover {
+    transform: scale(1.1); 
+  }
 
   
 
