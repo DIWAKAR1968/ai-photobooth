@@ -460,6 +460,11 @@ img:hover {
     transition: transform 0.3s ease-in-out;
   }
 
+  .carousel img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
   .carousel-controls {
     display: flex;
     justify-content: center;
@@ -512,5 +517,10 @@ img:hover {
     color: #fff;
     border-radius: 50%;
     font-size: 15px;
+  }
+
+  .carousel img:hover {
+    box-shadow: 0 0 0 3px black;
+    border-radius: 10px;
   }
 }
