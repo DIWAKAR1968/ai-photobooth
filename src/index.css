@@ -390,6 +390,8 @@ img:hover {
 } */
 
 @media screen and (max-width: 950px) {
+
+
   .go-back-button {
     position: absolute;
     top: 0;
@@ -416,6 +418,8 @@ img:hover {
   .go-back-button span {
     margin-right: 5px;
   }
+
+  /* avatar page */
 
   .avatar_container {
     display: flex;
@@ -523,4 +527,52 @@ img:hover {
     box-shadow: 0 0 0 3px black;
     border-radius: 10px;
   }
+
+  /* photo page */
+
+  .photo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("images/BG-01.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+
+  }
+
+  .frame_container {
+    /* position: relative; */
+    margin-top: 30%;
+    max-width: 100%;
+  }
+
+  
+    .frame {
+      width: 100%; 
+      height: 60%; 
+      
+      position: relative;
+      z-index: 1;
+    }
+
+    .camera_image {
+      margin-top: -35%;
+      margin-left: 7%;
+      position: absolute;
+      z-index: 0;
+    }
+
+    .header_text{
+      font-size: 20px;
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      /* margin-top: 3%; */
+    }
+  
+  
+
+
 }
