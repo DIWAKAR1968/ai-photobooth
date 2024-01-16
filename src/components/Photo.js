@@ -58,7 +58,7 @@ const Photo = () => {
                 screenshotFormat="image/jpeg"
                 className="webcam"
                 videoConstraints={videoConstraints}
-                style={{ width: "100%", height: "100%" }}
+                
               />
             </div>
           )}
