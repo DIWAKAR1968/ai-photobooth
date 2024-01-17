@@ -445,6 +445,16 @@ img:hover {
     max-width: 90%;
   }
 
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
   .carousel img {
     width: auto; /* adjust as needed */
     height: 100%;
