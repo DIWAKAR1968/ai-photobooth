@@ -4,6 +4,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 /* .container {
@@ -536,9 +537,8 @@ img:hover {
     height: 100vh;
     width: 100%;
     background-size: cover;
-    overflow-x: hidden;
-    overflow-y: hidden;
-
+    overflow: hidden; /* Remove overflow-x and overflow-y if you don't want any scrolling */
+  
   }
 
   .avatar_text {
