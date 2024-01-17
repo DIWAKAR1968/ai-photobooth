@@ -8,7 +8,7 @@ body {
   height: 100%;
 }
 
-/* .container {
+.container {
   overflow-x: hidden;
   background-size: cover;
   height: 100vh;
@@ -300,97 +300,12 @@ img:hover {
   font-family: "Poppins", sans-serif;
 }
 
-.carousel-controls {
-  display: flex;
-  justify-content: center;
-  width: 100%;
 
-  margin-top: 3%;
-  margin-bottom: 3%;
-  overflow: hidden;
-}
 
-.carousel-button .circle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #000;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-}
-
-.carousel-button {
-  background: none;
-  border: none;
-  font-size: 2em;
-  cursor: pointer;
-  padding-top: 2%;
-}
-
-.carousel img {
-  object-fit: cover;
-  transition: all 0.3s ease-in-out;
-}
-
-.carousel img.enlarged {
-  transform: scale(1.1);
-}
-
-.carousel img.enlarged:hover {
-  transform: scale(1.2);
-  transition: transform 0.3s ease-in-out;
-}
-
-.carousel img:hover {
-  box-shadow: 0 0 0 10px black;
-  border-radius: 22px;
-}
-
-.carousel img {
-  size: 70%;
-}
 
 @media screen and (max-width: 1500px) {
-  .carousel {
-    display: flex;
-    overflow-x: auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    max-width: 90%;
-    margin: 0 auto;
-    justify-content: space-between;
-  }
-
-  .avatar_container {
-    background-size: cover;
-    height: 100vh;
-  }
-
-  .carousel img {
-    max-width: calc(20% - 1rem);
-    height: auto;
-    margin-right: 1rem;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .carousel img.enlarged {
-    transform: scale(1.1);
-  }
-
-  .carousel img.enlarged:hover {
-    transform: scale(1.2);
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .carousel-button {
-    background: none;
-    border: none;
-    font-size: 2em;
-    cursor: pointer;
-    padding-top: 1%;
-  }
-} */
+  
+}
 
 @media screen and (max-width: 950px) {
   .go-back-button {
