@@ -539,6 +539,7 @@ img:hover {
     width: 100%;
     background-size: cover;
     overflow: hidden; /* No scrolling in any direction */
+    box-sizing: border-box; /* Ensure padding and borders are included in total width and height */
   }
   
   .go-back-button {
@@ -563,8 +564,8 @@ img:hover {
     flex: 0 0 auto;
     width: 10%;
     height: auto;
+    box-sizing: border-box; /* Ensure padding and borders are included in total width and height */
   }
-
 
   /* photo */
 
