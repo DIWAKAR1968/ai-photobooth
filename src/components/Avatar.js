@@ -31,8 +31,8 @@ const Avatar = () => {
 
       <div className="avatar_text">Please Select Your Avatar</div>
       <div className="carousel">
-      {Photo.map((photo,index) => (
-        <img key={index} src={photo}  alt={`Avatar ${index + 1}`} />
+      {Photo.map((photo, index) => (
+        <img key={index} src={photo} alt={`Avatar ${index + 1}`} />
       ))}
       </div>
       
