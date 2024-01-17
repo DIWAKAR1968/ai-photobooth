@@ -434,7 +434,7 @@ img:hover {
   .carousel {
     display: flex;
     flex-direction: row;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap;
     /* background-color: aqua; */
