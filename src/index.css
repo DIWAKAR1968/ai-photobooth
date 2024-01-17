@@ -771,6 +771,11 @@ img:hover {
     width: 90%; /* adjust as needed */
     height: auto;
   }
+
+  .glow-on-hover:hover {
+    box-shadow: 0 0 1px #d90429, 0 0 10px #d90429, 0 0 20px #d90429, 0 0 30px #d90429;
+    border-radius: 10px;
+  }
 }
 
 @media screen and (max-width: 1367px) and (max-height: 1025px) {
