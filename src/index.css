@@ -429,7 +429,9 @@ img:hover {
     height: 100vh;
     width: 100%;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
   }
 
   .carousel {
