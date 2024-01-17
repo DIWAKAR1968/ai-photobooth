@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-.container {
+/* .container {
   overflow-x: hidden;
   background-size: cover;
   height: 100vh;
@@ -387,7 +387,7 @@ img:hover {
     cursor: pointer;
     padding-top: 1%;
   }
-}
+} */
 
 @media screen and (max-width: 950px) {
   .go-back-button {
