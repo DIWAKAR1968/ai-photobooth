@@ -567,6 +567,11 @@ img:hover {
     box-sizing: border-box; /* Ensure padding and borders are included in total width and height */
   }
 
+  .carousel img:hover {
+    box-shadow: 0 0 0 3px black;
+    border-radius: 10px;
+  }
+
   /* photo */
 
   .photo_container {
