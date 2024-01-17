@@ -418,7 +418,7 @@ img:hover {
     margin-right: 5px;
   }
 
-  /* avatar page */
+  
 
   .avatar_container {
     display: flex;
@@ -434,16 +434,16 @@ img:hover {
 
   }
 
-  .carousel {
+  /* .carousel {
     display: flex;
     flex-direction: row;
     overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap;
-    /* background-color: aqua; */
+   
     max-height: 40vh;
     padding: 3%;
-    /* padding-bottom: 5%; */
+    
     max-width: 90%;
   }
 
@@ -458,7 +458,7 @@ img:hover {
   }
 
   .carousel img {
-    width: auto; /* adjust as needed */
+    width: auto;
     height: 100%;
     object-fit: contain;
     margin-right: 10px;
@@ -537,6 +537,12 @@ img:hover {
   .carousel img:hover {
     box-shadow: 0 0 0 3px black;
     border-radius: 10px;
+  } */
+
+  .avatar_text {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
   }
 
   .photo_container {
