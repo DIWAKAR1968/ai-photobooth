@@ -535,7 +535,7 @@ img:hover {
     justify-content: center;
     flex-direction: column;
     background-image: url("images/BG-01.png");
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     overflow: hidden; /* No scrolling in any direction */
