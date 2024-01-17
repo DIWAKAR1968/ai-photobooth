@@ -550,7 +550,7 @@ img:hover {
   .carousel {
     display: flex;
     overflow-x: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
     padding-top: 2%;
     padding-bottom: 2%;
   }
