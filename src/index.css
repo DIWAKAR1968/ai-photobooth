@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-.container {
+/* .container {
   overflow-x: hidden;
   background-size: cover;
   height: 100vh;
@@ -280,7 +280,7 @@ img:hover {
 .carousel {
   
   margin-top: 3%; 
-  /* background-color: blue; */
+  
 }
 
 .header_text1 {
@@ -388,7 +388,7 @@ img:hover {
     cursor: pointer;
     padding-top: 1%;
   }
-}
+} */
 
 @media screen and (max-width: 950px) {
   .go-back-button {
@@ -448,8 +448,8 @@ img:hover {
   .carousel {
     display: flex;
     overflow-x: auto;
-    padding-top: 1%;
-    padding-bottom: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     max-width: 90%;
     margin: 0 auto;
     justify-content: space-between;
